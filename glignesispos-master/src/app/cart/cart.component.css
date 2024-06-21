@@ -1,0 +1,247 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #89D8CE;
+}
+
+
+/* Header styles */
+.cart-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(102, 204, 192, 0.56); /* 56% transparent background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+}
+
+.back-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.cart-title {
+  font-size: 24px;
+  margin: 0;
+  color: #3C57A7;
+}
+
+/* Body content styles */
+.cart-body {
+  padding: 20px;
+}
+
+/* Cart item styles */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+}
+
+.item-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.item-details {
+  display: flex; /* Make item-details a flex container */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.item-name {
+  font-size: 16px;
+  margin-right: 15px;
+  font-weight: 500; /* Space between name and controls */
+}
+
+/* Quantity controls styles */
+.quantity-controls {
+  margin: 0px 10px 0px;
+  height: 43px;
+  width: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  flex-direction: row;
+}
+
+.quantity-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 7px;
+  transition: background-color 0.3s;
+}
+
+.quantity {
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Price styles */
+.price {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #020202;
+}
+
+/* Add more container styles */
+.add-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+}
+
+.add-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* background-image: url('assets/add.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Heading text styles */
+.heading-text {
+  color: #000000;
+  font-weight: bold;
+  text-align: left;
+  font-size: large;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Size selection container styles */
+.size-selection-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+}
+
+.size-selection-text {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.size-buttons {
+  display: flex;
+}
+
+.size-button {
+  background-color: #FBFBE8;
+  color: #000000;
+  border: none;
+  padding: 15px; /* Adjust padding as needed */
+  width: 100%; /* Set width to 100% */
+  border-radius: 5px;
+  display: flex;
+  margin-left: 5px;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.size-button:last-child {
+  margin-right: 0;
+}
+
+.size-button:hover {
+  background-color: #0056b3;
+}
+
+/* Billing details container styles */
+.billing-details-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+}
+
+.billing-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.billing-item {
+  font-weight: bold;
+ margin: 20px;
+}
+
+.billing-price {
+  font-weight: bold;
+margin: 20px;
+}
+
+/* Cancellation policy container styles */
+.cancellation-policy-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+ margin-left: 10px;
+ margin-right: 10px;
+
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+}
+
+.cancellation-policy-description {
+  line-height: 1.5;
+}

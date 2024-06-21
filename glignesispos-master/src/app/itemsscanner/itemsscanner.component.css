@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.header {
+  background-color: #66CCC0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+  backdrop-filter: blur(100px);
+}
+
+.logo img {
+  width: 50px;
+ height: 20%;
+ border-radius: 50%;/* Adjust size as needed */
+  height: auto;
+  margin: 0px 30px 0px 10px;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+.content {
+  padding: 20px;
+}
+.qr {
+width: 100%;
+  align-items:center ;
+  display: flex;
+  justify-content: center;
+ }
+
+.qr img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+.description-info p{
+ color: rgb(32, 113, 219);
+ margin: 0px 10px 0px 10px;
+ align-items: center;
+ justify-content: center;
+}
